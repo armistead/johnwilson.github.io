@@ -3,3 +3,5 @@ title: "About"
 ---
 
 About this site
+      - href: cv/myCV.pdf
+        text: CV

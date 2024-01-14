@@ -6,19 +6,33 @@ website:
   site-url: "https:johnwilson.co"
 
   navbar:
-    left:
-      - text: "Home"
-        file: index.qmd
+    title: "John Wilson" # this is the website title as it appears in the top left corner -- clicking on this will jump you back to your landing page from where ever you are
+    
+    #title: false # change this to false!
+    #logo: "/images/fav.png"
+    #logo-alt: "Alt text for logo"
+
+
+    right: # align navbar items to the right/left/center
       - work.qmd
       - about.qmd
+      - resources.qmd
+      - icon: newspaper
+        href: https://johnwilson.beehiiv.com
+      - icon: envelope
+        href: mailto:johnawilson@gmail.com
+
     logo: "/images/fav.png"
     background: "#0454a4"
     pinned: true
     collapse: true
   page-footer:
-    center: 
-      - text: "Website by John Armistead Wilson. Copyright 2024."
-  
+    background: light # or dark
+    left:
+      - "Copyright 2024, John Armistead Wilson"
+    right:
+      - icon: github
+        href: https://github.com/armistead
 format:
   html:
     theme: cosmo

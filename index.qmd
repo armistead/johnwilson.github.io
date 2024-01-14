@@ -10,13 +10,16 @@ about:
         href: https://www.linkedin.com/in/johnawilson
       - icon: threads
         text: threads
-        href: https://www.threads.com/johnawilsonTN
-      - icon: beehiiv
-        text: beehiiv
-        href: https://johnwilson.beehiiv.com
+        href: https://www.threads.net/johnawilsonTN
       - icon: instagram
         text: instagram
         href: https://www.instagram.com/johnawilsonTN
+      - icon: github
+        text: GitHub
+        href: https://github.com/armistead
+      - icon: calendar-event
+        text: book time with me
+        href: https://calendly.com/johnawilson/30min
 
 ---
 
