@@ -8,10 +8,18 @@ about:
       - icon: linkedin
         text: linkedin
         href: https://www.linkedin.com/in/johnawilson
----
+      - icon: threads
+        text: threads
+        href: https://www.threads.com/johnawilsonTN
+      - icon: beehiiv
+        text: beehiiv
+        href: https://johnwilson.beehiiv.com
+      - icon: instagram
+        text: instagram
+        href: https://www.instagram.com/johnawilsonTN
 
 ---
 
-Hi, thanks for visiting.
+Hi, thanks for visiting. My name's John Wilson, and I live in Nashville, TN. Here you'll find links and content for all my many pet projects and of course, my work as director of insights and analytics with Brookdale Senior Living.
 
 
