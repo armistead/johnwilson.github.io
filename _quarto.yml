@@ -16,7 +16,6 @@ website:
     right: # align navbar items to the right/left/center
       - work.qmd
       - about.qmd
-      - resources.qmd
       - icon: newspaper
         href: https://johnwilson.beehiiv.com
       - icon: envelope
