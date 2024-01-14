@@ -1,7 +1,17 @@
 ---
-title: "proj-quarto"
+title: "John Wilson"
+about:
+    template: solana
+    image: 
+        "images/profile.png"
+    links:
+      - icon: linkedin
+        text: linkedin
+        href: https://www.linkedin.com/in/johnawilson
 ---
 
-This is a Quarto website.
+---
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi, thanks for visiting.
+
+

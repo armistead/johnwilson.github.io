@@ -2,13 +2,23 @@ project:
   type: website
 
 website:
-  title: "proj-quarto"
+  title: "John Wilson"
+  site-url: "https:johnwilson.co"
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: "Home"
+        file: index.qmd
+      - work.qmd
       - about.qmd
-
+    logo: "/images/fav.png"
+    background: "#0454a4"
+    pinned: true
+    collapse: true
+  page-footer:
+    center: 
+      - text: "Website by John Armistead Wilson. Copyright 2024."
+  
 format:
   html:
     theme: cosmo
