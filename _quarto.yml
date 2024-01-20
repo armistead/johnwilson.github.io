@@ -4,14 +4,17 @@ project:
 website:
   title: "John Wilson"
   site-url: "https:johnwilson.co"
-
+  favicon: "/images/fav.png"
   navbar:
     title: "John Wilson" # this is the website title as it appears in the top left corner -- clicking on this will jump you back to your landing page from where ever you are
-    
+    logo: "/images/fav.png"
+    logo-alt: "John Wilson"
+    pinned: true
+    collapse: true
+
     #title: false # change this to false!
     #logo: "/images/fav.png"
     #logo-alt: "Alt text for logo"
-
 
     right: # align navbar items to the right/left/center
       - work.qmd
@@ -21,10 +24,8 @@ website:
       - icon: envelope
         href: mailto:johnawilson@gmail.com
 
-    logo: "/images/fav.png"
-    background: "#0454a4"
-    pinned: true
-    collapse: true
+    # logo: "/images/fav.png"
+    # background: "#0454a4"
   page-footer:
     background: light # or dark
     left:
