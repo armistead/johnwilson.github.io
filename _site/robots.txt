@@ -1,1 +1,1 @@
-Sitemap: https://main--johnwilson.netlify.app/sitemap.xml
+Sitemap: https://johnwilson.co/sitemap.xml
