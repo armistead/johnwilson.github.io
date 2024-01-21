@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "Work",
+    "section": "",
+    "text": "The work I do"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "John Wilson",
@@ -12,13 +19,6 @@
     "title": "About",
     "section": "",
     "text": "About this site - href: cv/myCV.pdf text: CV"
-  },
-  {
-    "objectID": "work.html",
-    "href": "work.html",
-    "title": "Work",
-    "section": "",
-    "text": "The work I do"
   },
   {
     "objectID": "resources.html",

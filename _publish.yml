@@ -1,4 +1,4 @@
 - source: project
   netlify:
-    - id: "133a45b8-f032-4d29-953e-c3692b4aed40"
-      url: "https://main--johnwilson.netlify.app"
+    - id: 133a45b8-f032-4d29-953e-c3692b4aed40
+      url: 'https://johnwilson.co'
