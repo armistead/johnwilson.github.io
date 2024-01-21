@@ -1,0 +1,32 @@
+---
+title: "Podcast Interview: The Tech Trek by Elevano"
+description: |
+  an interview with HR tech company Elevano about how to build and structure an analytics Center of Excellence.
+date: 2021-01-01
+categories: [Podcasts]
+image: TTT.jpg
+draft: false
+---
+[Tech Trek Podcast Interview](https://open.spotify.com/episode/248bPfnID1Bi0Bt6GrykRr?si=w26UwJymTVWfGW89z0Oeug/)
+
+<img class="img-styling" src="TTT.jpg" alt="[Tech Trek Podcast by Elevano.](https://open.spotify.com/episode/248bPfnID1Bi0Bt6GrykRr?si=w26UwJymTVWfGW89z0Oeug/)" width="35%">
+
+::: {.gray-italic .center-text}
+One of my proudest achievements have been the development of the analytics team at Brookdale. This interview covers some of the aspects of my experience there.
+:::
+
+<!-- <br> -->
+
+<!-- <img class="img-styling" src="cathedral-peak.jpeg" alt="A woman stands on top of a rocky peak with blue sky and chapparal-covered mountains in the background. Blue sky is visible to the left, and foggy, dark clouds are rolling in from the right." width="70%"> -->
+
+<!-- ::: {.gray-italic .center-text} -->
+<!-- Cathedral Peak, Santa Barbara, CA -->
+<!-- ::: -->
+
+<!-- <br> -->
+
+<!-- # What's on the dashboard? -->
+
+<!-- This is very much an ongoing work in-progress, but the first version included a "Gear Garage" for tracking mileage on my hiking boots and bike, an activity heat map of all recorded hikes, bike rides, and walks, visualizations for exploring activity distance and elevation gain, and an interactive table of the raw data. -->
+
+<!-- There are many more visualizations and features I'd love to add (but have been severely lacking the time to do so). I also still manually retrieve new activities using the Strava API via the [`{rstrava}` package](https://github.com/fawda123/rStrava), but I hope to automate this in the next version. Stay tuned! -->

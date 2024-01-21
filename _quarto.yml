@@ -15,14 +15,14 @@ website:
 
     right: # align navbar items to the right/left/center
       - work.qmd
-      - about.qmd
+      - projects.qmd
       - icon: newspaper
         href: https://johnwilson.beehiiv.com
       - icon: envelope
         href: mailto:johnawilson@gmail.com
 
     logo: "/images/fav.png"
-    background: "#0454a4"
+    background: "#E8EDE7"
     pinned: true
     collapse: true
   page-footer:
