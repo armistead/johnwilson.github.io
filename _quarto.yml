@@ -34,9 +34,11 @@ website:
         href: https://github.com/armistead
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - styles.scss
     toc: true
+#    css: styles.css
+#    toc: true
 
 execute:
   freeze: auto

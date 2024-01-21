@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "John Wilson",
     "section": "",
-    "text": "Hi, thanks for visiting. My name’s John Wilson, and I am a strategy and analytics executive based in Nashville, TN. Here you’ll find info about my work as director of insights and analytics with Brookdale Senior Living and also my consulting projects."
+    "text": "Hi, my name’s John Wilson, and I am a strategy and analytics executive based in Nashville, TN. Here you’ll find info about my consulting work and as director of insights and analytics with Brookdale Senior Living."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site - href: cv/myCV.pdf text: CV"
+    "text": "listing: contents: posts sort: “date desc” type: default categories: true sort-ui: false filter-ui: false page-layout: full title-block-banner: true"
   },
   {
     "objectID": "resources.html",
