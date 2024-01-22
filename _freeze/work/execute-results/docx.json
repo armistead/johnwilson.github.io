@@ -1,0 +1,15 @@
+{
+  "hash": "ae312e07d86b80ccba1e323dcad5a278",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"work\"\nsubtitle: \"Are you working? What kind of work do you do? -Gang Starr\"\nformat: docx\n---\n\n\n\n::: {.cell .panel-sidebar layout-align=\"center\"}\n\n```{.r .cell-code}\n_____________________________________________________________________________    \n\nEducation: Nevermore Academy, Jericho - present\n____________________________________________________________________________ \n\nSkills: Arachnology, Data-driven Detective Analytics \n____________________________________________________________________________ \n```\n:::\n\n\n<hr>\n\n# Experience\n\n## Sr. Data Journalist, Nevermore (2022 - present)\n\n-   Independently analyzed student journeys among peers to create a classification model for identifying sketchy monster\n-   Optimized data gathering and research based on new and evolving constraints by the school principal and sheriff\n-   Suspected every stakeholder I came in contact with following \"Trust but verify\" data philosophy\n-   Developed AI based psychic visions in my head to create a propensity model for incident occurrence with 100% accuracy \n-   Successfully led a team of trusting peers multiple times to face dangers risen from bad data collection\n-   Expertly coded in multiple languages like Latin and German\n-   Developed algorithms using Natural Language Processing and\\\n    Deep Learning models to communicate with dead and alive stakeholders\n\n\n# Hobbies\n\n-   Dancing like nobody is watching\n-   Being cold and distant in an adorable way\n-   Not hugging\n\n<br>\n\n![Screenshot from Netflix](WA_screenshot_smile.png)\n\n# About this resume\n-   Created by [Deepsha Menghani](https://deepshamenghani.quarto.pub/dmenghani/)\n-   Packages used: Quarto, Tidyverse, gtrendsR, showtext, ggthemes, cowplot, magick, ggimage",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

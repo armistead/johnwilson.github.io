@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>John Wilson - Work</title>
+<title>John Wilson - work</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,14 +67,72 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-</head>
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="John Wilson" href="work.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -91,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./work.html" aria-current="page"> 
-<span class="menu-text">Work</span></a>
+<span class="menu-text">work</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
@@ -115,39 +175,260 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">work</h1>
+            <p class="subtitle lead">a summary of my work experience</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a>
+  <ul class="collapse">
+  <li><a href="#brookdale-senior-living" id="toc-brookdale-senior-living" class="nav-link" data-scroll-target="#brookdale-senior-living">Brookdale Senior Living</a>
+  <ul class="collapse">
+  <li><a href="#director-insights-and-analytics-2019-present" id="toc-director-insights-and-analytics-2019-present" class="nav-link" data-scroll-target="#director-insights-and-analytics-2019-present">Director, Insights and Analytics, 2019-Present</a></li>
+  <li><a href="#manager-insights-and-analytics-2017-2019" id="toc-manager-insights-and-analytics-2017-2019" class="nav-link" data-scroll-target="#manager-insights-and-analytics-2017-2019">Manager, Insights and Analytics, 2017-2019</a></li>
+  </ul></li>
+  <li><a href="#idemia" id="toc-idemia" class="nav-link" data-scroll-target="#idemia">IDEMIA</a>
+  <ul class="collapse">
+  <li><a href="#manager-business-analysis-2014-2017" id="toc-manager-business-analysis-2014-2017" class="nav-link" data-scroll-target="#manager-business-analysis-2014-2017">Manager, Business Analysis, 2014-2017</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Work</h1>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/waldenpond.jpg" class="img-fluid figure-img"></p>
+<figcaption>Walden Pond, Concord, Massachusetts</figcaption>
+</figure>
 </div>
+<hr>
+<section id="background" class="level1">
+<h1>Background</h1>
+<p>Originally from Concord, Massachusetts, I went to college in Los Angeles where I <a href="https://www.imdb.com/name/nm4911200/?ref_=nv_sr_srsg_0_tt_0_nm_1_q_john%2520armistead%2520wilson">freelanced</a> and played music until I managed to join a tech start-up for live event tickets called <a href="https://www.scorebig.com/">ScoreBig</a>. That is where I fell in love with analytics, engaging with data to reach our first million customers. Finally I wanted to expand my horizons, so I moved to Nashville for my MBA, and the rest is history.</p>
+</section>
+<section id="experience" class="level1">
+<h1>Experience</h1>
+<section id="brookdale-senior-living" class="level2">
+<h2 class="anchored" data-anchor-id="brookdale-senior-living">Brookdale Senior Living</h2>
+<section id="director-insights-and-analytics-2019-present" class="level3">
+<h3 class="anchored" data-anchor-id="director-insights-and-analytics-2019-present">Director, Insights and Analytics, 2019-Present</h3>
+<ul>
+<li>Lead team of five in performing research and analysis for improving the lives of seniors with data.</li>
+<li>Designed and manage the company’s most-used Tableau dashboard, a tool for quoting rates to prospects.</li>
+<li>Developed covid-19 response data architecture, reporting cases daily to the executive leadership team.</li>
+</ul>
+</section>
+<section id="manager-insights-and-analytics-2017-2019" class="level3">
+<h3 class="anchored" data-anchor-id="manager-insights-and-analytics-2017-2019">Manager, Insights and Analytics, 2017-2019</h3>
+<ul>
+<li>Managed People Analytics from an FP&amp;A perspective, delivering insights on the company’s labor strategy.</li>
+<li>Built a culture of data science and research with R and Python.</li>
+</ul>
+</section>
+</section>
+<section id="idemia" class="level2">
+<h2 class="anchored" data-anchor-id="idemia">IDEMIA</h2>
+<section id="manager-business-analysis-2014-2017" class="level3">
+<h3 class="anchored" data-anchor-id="manager-business-analysis-2014-2017">Manager, Business Analysis, 2014-2017</h3>
+<ul>
+<li>Created the financial reporting system for the TSA Pre-Check program, reporting on the 1,200 locations at which you receive fingerprinting and background check services.</li>
+</ul>
+<hr>
+<p>Education: MBA, Vanderbilt University; BA, Occidental College ___________________________________________________________________________________</p>
+<p>Skills: Leading analytics and data science teams, Tableau, SQL, Strategic Finance ___________________________________________________________________________________</p>
+</section>
+</section>
+</section>
+<section id="tools" class="level1">
+<h1>Tools</h1>
+Tableau, SQL, Python, R, and more.
+<hr>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/computer_small.png" class="img-fluid figure-img"></p>
+<figcaption>My dream workstation</figcaption>
+</figure>
+</div>
+<p><br></p>
 
 
 
-<div class="quarto-title-meta">
+</section>
 
-    
-  
-    
-  </div>
-  
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1705897626363" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+<a href="./index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+John Wilson
+</h5>
+<div class="card-text listing-description">
+Hi, my name’s John Wilson, and I am a strategy and analytics executive based in Nashville, TN. Here you’ll find info about my work as director of insights and analytics with…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Podcasts" data-listing-date-sort="1641016800000" data-listing-file-modified-sort="1705877091446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
+<a href="./projects/2022-01-01-podcast-house-of-data/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/2022-01-01-podcast-house-of-data/HOD.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Podcast Interview: House of Data by Altos Research
+</h5>
+<div class="card-text listing-description">
+<p>an interview with Altos Research, a division of Housing Wire Media about data team management.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 1, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Podcasts" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1705873601030" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<a href="./projects/2021-01-01-podcast-tech-trek/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/2021-01-01-podcast-tech-trek/TTT.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Podcast Interview: The Tech Trek by Elevano
+</h5>
+<div class="card-text listing-description">
+<p>an interview with HR tech company Elevano about how to build and structure an analytics Center of Excellence.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 1, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1705218300239" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<a href="./resources.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Resources
+</h5>
+<div class="card-text listing-description">
+Here I’ll put links and helpful sources of information.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Tableau" data-listing-date-sort="1641016800000" data-listing-file-modified-sort="1705877491725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<a href="./projects/2023-01-01-tableau-airbnb/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/2023-01-01-tableau-airbnb/tableau.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tableau: Analyzing Airbnb inventory and pricing in Nashville, TN
+</h5>
+<div class="card-text listing-description">
+<p>an example of my work in Tableau</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 1, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1705874104831" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="projects\2022-01-01-podcast-house-of-data\HOD.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+projects
+</h5>
+<div class="card-text listing-description">
 
 
-</header>
 
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-<p>The work I do</p>
-
-
-
-</main> <!-- /main -->
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

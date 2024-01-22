@@ -1,5 +1,59 @@
 ---
-title: "Work"
+title: "work"
+subtitle: "a summary of my work experience"
+listing:
+  feed: true
+  type: grid
+  grid-item-border: true
+  grid-item-align: left
+  max-description-length: 175
+  date-format: medium
+  #categories: numbered
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
+<hr>
 
-The work I do
+# Background
+Originally from Concord, Massachusetts, I went to college in Los Angeles where I [freelanced](https://www.imdb.com/name/nm4911200/?ref_=nv_sr_srsg_0_tt_0_nm_1_q_john%2520armistead%2520wilson) and played music until I managed to join a tech start-up for live event tickets called [ScoreBig](https://www.scorebig.com/). That is where I fell in love with analytics, engaging with data to reach our first million customers. Finally I wanted to expand my horizons, so I moved to Nashville for my MBA, and the rest is history.
+
+![Walden Pond, Concord, Massachusetts](images/waldenpond.jpg)
+
+
+# Experience
+
+## Brookdale Senior Living
+### Director, Insights and Analytics, 2019-Present
+  - Lead team of five in performing research and analysis for improving the lives of seniors with data.
+  - Designed and manage the company's most-used Tableau dashboard, a tool for quoting rates to prospects.
+  - Developed covid-19 response data architecture, reporting cases daily to the executive leadership team.
+
+### Manager, Insights and Analytics, 2017-2019
+  - Managed People Analytics from an FP&A perspective, delivering insights on the company's labor strategy.
+  - Built a culture of data science and research with R and Python.
+
+
+## IDEMIA
+### Manager, Business Analysis, 2014-2017
+  - Created the financial reporting system for the TSA Pre-Check program, reporting on the 1,200 locations at which you receive fingerprinting and background check services.
+
+___________________________________________________________________________________
+
+Education: MBA, Vanderbilt University; BA, Occidental College
+___________________________________________________________________________________ 
+
+Skills: Leading analytics and data science teams, Tableau, SQL, Strategic Finance
+___________________________________________________________________________________ 
+
+
+# Tools
+Tableau, SQL, Python, R, and more.
+<hr>
+
+<br>
+
+![My dream workstation](images/computer_small.png)
+
+<br>
